@@ -59,3 +59,13 @@ REL000057;marriage;P000052;P000058;;neznámé;Vilém z Rožmberka × Anna Marie 
 REL000058;marriage;P000052;P000059;;neznámé;Vilém z Rožmberka × Polyxena z Pernštejna;SRC000002;C
 REL000059;marriage;P000055;P000060;1580;pouze rok;Petr Vok z Rožmberka × Kateřina z Ludanic;SRC000004;C
 REL000060;sibling;P000052;P000055;;neznámé;Vilém z Rožmberka a Petr Vok z Rožmberka byli bratři;SRC000004;C
+REL000061;parent-child;P000045;P000051;;neznámé;Jošt III. → Anna z Rožmberka;SRC000002;C
+REL000062;parent-child;P000045;P000052;;neznámé;Jošt III. → Ferdinand Vok z Rožmberka;SRC000002;C
+REL000063;parent-child;P000045;P000053;;neznámé;Jošt III. → Alžběta (Eliška) z Rožmberka;SRC000002;C
+REL000064;parent-child;P000045;P000054;;neznámé;Jošt III. → Oldřich IV. z Rožmberka;SRC000002;C
+REL000065;parent-child;P000045;P000055;;neznámé;Jošt III. → Bohunka z Rožmberka;SRC000002;C
+REL000066;parent-child;P000045;P000056;;neznámé;Jošt III. → Eva z Rožmberka;SRC000002;C
+REL000067;marriage;P000049;P000057;1546;přibližné;Vilém z Rožmberka × Kateřina Brunšvická;SRC000002;C
+REL000068;marriage;P000049;P000058;1561;přibližné;Vilém z Rožmberka × Žofie Braniborská z Hohenzollernu;SRC000002;C
+REL000069;marriage;P000049;P000059;1578;přibližné;Vilém z Rožmberka × Anna Marie Bádenská;SRC000002;C
+REL000070;marriage;P000049;P000060;1587;přibližné;Vilém z Rožmberka × Polyxena z Pernštejna;SRC000002;C
