@@ -1,71 +1,25 @@
 event_id;date;date_quality;event_type;person_id;related_person_id;place_id;estate_id;description;source_id;confidence
-E000001;1250;pouze rok;první písemná zmínka;P000001;;;EST000001;Hrad Rožmberk a Vok I. z Rožmberka jsou poprvé písemně uváděni roku 1250;SRC000005;B
-E000002;1259;pouze rok;založení;P000001;;;EST000002;Vok I. stál u zrodu kláštera Vyšší Brod;SRC000003;B
-E000003;1302;pouze rok;převzetí majetku;P000002;;;EST000003;Jindřich I. převzal krumlovský hrad a majetek po vymření pánů z Krumlova;SRC000003;B
-E000004;1302;pouze rok;přesun sídla;P000002;;;EST000003;Jindřich I. přesunul rodové sídlo z Rožmberka do Českého Krumlova;SRC000003;B
-E000005;1418;pouze rok;instituce;;;;EST000004;Od roku 1418 je užíván titul vladař domu rožmberského;SRC000001;C
-E000006;1522;pouze rok;požár;;;;EST000001;Vyhořela část poddanského města a Horní hrad Rožmberk;SRC000005;B
-E000007;1535-03-10;přesné;narození;P000049;;;;Narození Viléma z Rožmberka;SRC000009;B
-E000008;1539-10-01;přesné;narození;P000050;;PL000003;;Narození Petra Voka z Rožmberka v Českém Krumlově;SRC000010;B
-E000009;1539-10-15;přesné;úmrtí;P000045;;;;Úmrtí Jošta III. z Rožmberka krátce po narození Petra Voka;SRC000008;C
-E000011;1580;pouze rok;sňatek;P000050;P000081;;;Sňatek Petra Voka z Rožmberka s Kateřinou z Ludanic;SRC000004;C
-E000011;1580;pouze rok;sňatek;P000050;P000060;;;Sňatek Petra Voka z Rožmberka s Kateřinou z Ludanic;SRC000004;C
-E000012;1592-08-31;přesné;úmrtí;P000049;;;;Úmrtí Viléma z Rožmberka;SRC000009;B
-E000013;1592-08-31;přesné;nástupnictví;P000050;P000049;;EST000004;Petr Vok se po smrti Viléma stal posledním rožmberským vladařem;SRC000004;B
-E000014;1597;pouze rok;postoupení majetku;P000050;;;EST000001;Petr Vok postoupil hrad Rožmberk Janu Zrinskému ze Serynu;SRC000005;B
-E000016;1601-06-22;přesné;úmrtí;P000081;P000050;;;Úmrtí Kateřiny z Ludanic, manželky Petra Voka;SRC000004;C
-E000016;1601-06-22;přesné;úmrtí;P000060;P000050;;;Úmrtí Kateřiny z Ludanic, manželky Petra Voka;SRC000004;C
-E000017;1609;pouze rok;politická událost;P000050;;;;Petr Vok patřil k předním představitelům stavovské opozice;SRC000004;C
-E000018;1611;pouze rok;finanční / vojenská událost;P000050;;;;Petr Vok obětoval rožmberský stříbrný poklad na vyplacení pasovského vojska;SRC000007;C
-E000019;1611-11-06;přesné;úmrtí;P000050;;PL000004;;Úmrtí Petra Voka v Třeboni;SRC000010;B
-E000020;1611-11-06;přesné;vymření rodu po meči;P000050;;PL000004;;Smrtí Petra Voka vymřel rod Rožmberků po meči;SRC000004;B
-E000021;1611;pouze rok;pohřeb;P000050;;PL000002;EST000002;Tělo Petra Voka bylo uloženo do rožmberské hrobky ve Vyšším Brodě;SRC000007;C
-E000022;1194;pouze rok;úmrtí;P000010;;;;Úmrtí Vítka I. z Prčice;SRC000002;C
-E000023;před 1236;přibližné;úmrtí;P000011;;;;Úmrtí Vítka III. z Prčice a Plankenberka;SRC000002;C
-E000024;před 1259;přibližné;úmrtí;P000061;;;;Úmrtí Vítka V. z Příběnic;SRC000002;C
-E000025;1277;pouze rok;úmrtí;P000062;;;;Úmrtí Vítka VI. z Rožmberka;SRC000002;C
-E000026;1317;pouze rok;úmrtí;P000063;;;;Úmrtí Johanky z Rožmberka;SRC000002;C
-E000027;1357;pouze rok;úmrtí;P000064;;;;Úmrtí Markéty z Rožmberka;SRC000002;C
-E000028;1389;pouze rok;úmrtí;P000067;;;;Úmrtí Jana I. z Rožmberka;SRC000002;C
-E000029;1388;pouze rok;úmrtí;P000069;;;;Úmrtí Anny z Rožmberka;SRC000002;C
-E000030;1380;pouze rok;úmrtí;P000070;;;;Úmrtí Mecely z Rožmberka;SRC000002;C
-E000031;1406;pouze rok;úmrtí;P000076;;;;Úmrtí Petra III. z Rožmberka;SRC000002;C
-E000032;1405;pouze rok;narození;P000078;;;;Narození Kateřiny z Rožmberka;SRC000002;C
-E000033;po 1454;přibližné;úmrtí;P000078;;;;Úmrtí Kateřiny z Rožmberka po roce 1454;SRC000002;C
-E000034;1430;pouze rok;narození;P000029;;;;Narození Jana II. z Rožmberka;SRC000002;C
-E000035;1454;pouze rok;sňatek;P000029;P000030;;;Sňatek Jana II. z Rožmberka s Annou Hlohovskou;SRC000002;C
-E000036;1456-06-25;přesné;narození;P000031;;;;Narození Jindřicha V. z Rožmberka;SRC000002;C
-E000037;1457;pouze rok;narození;P000032;;;;Narození Kateřiny z Rožmberka;SRC000002;C
-E000038;1459-07-18;přesné;narození;P000033;;;;Narození Voka II. z Rožmberka;SRC000002;C
-E000039;1460;pouze rok;narození;P000034;;;;Narození Barbory z Rožmberka;SRC000002;C
-E000040;1460;pouze rok;narození;P000035;;;;Narození Markéty z Rožmberka;SRC000002;C
-E000041;1462-01-17;přesné;narození;P000036;;;;Narození Petra IV. z Rožmberka;SRC000002;C
-E000042;1464;pouze rok;narození;P000037;;;;Narození Hedviky z Rožmberka;SRC000002;C
-E000043;1466;pouze rok;narození;P000038;;;;Narození Elišky z Rožmberka;SRC000002;C
-E000044;1467;pouze rok;narození;P000039;;;;Narození Johanky z Rožmberka;SRC000002;C
-E000045;1471;pouze rok;narození;P000040;;;;Narození Oldřicha III. z Rožmberka;SRC000002;C
-E000046;1472-11-08;přesné;úmrtí;P000029;;;;Úmrtí Jana II. z Rožmberka;SRC000002;C
-E000047;1483;pouze rok;úmrtí;P000030;;;;Úmrtí Anny Hlohovské;SRC000002;C
-E000048;1489-05-21;přesné;úmrtí;P000031;;;;Úmrtí Jindřicha V. z Rožmberka;SRC000002;C
-E000049;1505-09-01;přesné;úmrtí;P000033;;;;Úmrtí Voka II. z Rožmberka;SRC000002;C
-E000050;1523-10-09;přesné;úmrtí;P000036;;;;Úmrtí Petra IV. z Rožmberka;SRC000002;C
-E000051;1539-10-15;přesné;úmrtí;P000045;;;;Úmrtí Jošta III. z Rožmberka;SRC000008;B
-E000052;1539;pouze rok;poručnictví;P000049;P000050;;;Po smrti Jošta III. přešlo poručnictví nad nezletilými Vilémem a Petrem Vokem na příbuzné a zemské poručníky;SRC000010;B
-E000053;1551;pouze rok;zletilost;P000049;;;;Vilém z Rožmberka převzal správu rožmberského dominia;SRC000004;B
-E000054;1551;pouze rok;zahájení samostatné správy;P000049;;;EST000004;Začátek samostatné vlády Viléma nad rožmberským majetkem;SRC000004;B
-E000055;1557;pouze rok;úmrtí;P000055;;;;Úmrtí Bohunky z Rožmberka;SRC000002;C
-E000056;1562;pouze rok;úmrtí;P000048;;;;Úmrtí Anny z Rogendorfu;SRC000008;C
-E000057;1564;pouze rok;úmrtí;P000058;;;;Úmrtí Žofie Braniborské z Hohenzollernu;SRC000002;C
-E000058;1569-06-27;přesné;koupě panství;P000050;;;EST000005;Zakoupení panství Bechyně Petrem Vokem;SRC000006;B
-E000059;1576;pouze rok;úmrtí;P000053;;;;Úmrtí Alžběty (Elišky) z Rožmberka;SRC000002;C
-E000060;1578;pouze rok;sňatek;P000049;P000059;;;Sňatek Viléma z Rožmberka s Annou Marií Bádenskou;SRC000002;C
-E000061;1580;pouze rok;sňatek;P000050;P000081;;;Sňatek Petra Voka s Kateřinou z Ludanic;SRC000004;B
-E000062;1583;pouze rok;úmrtí;P000059;;;;Úmrtí Anny Marie Bádenské;SRC000002;C
-E000063;1587;pouze rok;sňatek;P000049;P000060;;;Sňatek Viléma z Rožmberka s Polyxenou z Pernštejna;SRC000002;C
-E000064;1591;pouze rok;úmrtí;P000056;;;;Úmrtí Evy z Rožmberka;SRC000002;C
-E000065;1592-08-31;přesné;úmrtí;P000049;;;;Úmrtí Viléma z Rožmberka;SRC000009;B
-E000066;1592-09-01;přibližné;nástupnictví;P000050;P000049;;;Petr Vok převzal správu celého rožmberského dominia;SRC000004;B
-E000067;1601-06-22;přesné;úmrtí;P000081;;;;Úmrtí Kateřiny z Ludanic;SRC000004;B
-E000068;1611-11-06;přesné;úmrtí;P000050;;PL000004;;Smrt Petra Voka v Třeboni;SRC000010;B
-E000069;1611-11-06;přesné;zánik rodu;P000050;;;;Vymření Rožmberků po meči smrtí Petra Voka;SRC000010;B
-E000070;1611;pouze rok;pohřeb;P000050;;PL000002;EST000002;Uložení ostatků Petra Voka do rožmberské hrobky ve Vyšším Brodě;SRC000007;C
+E000001;1250;pouze rok;první písemná zmínka;P000003;;PL000001;EST000001;Hrad Rožmberk a Vok I. jsou uváděni k roku 1250;SRC000005;B
+E000002;1259;pouze rok;založení;P000003;;PL000002;EST000002;Založení kláštera Vyšší Brod;SRC000003;B
+E000003;1302;pouze rok;převzetí majetku;P000005;;PL000003;EST000003;Jindřich I. převzal Český Krumlov po vymření pánů z Krumlova;SRC000003;B
+E000004;1418;pouze rok;instituce;;;;EST000004;Užívání titulu vladař domu rožmberského;SRC000001;C
+E000005;1522;pouze rok;požár;;;;EST000001;Požár části města a Horního hradu Rožmberk;SRC000005;B
+E000006;1535-03-10;přesné;narození;P000051;;;;Narození Viléma z Rožmberka;SRC000001;B
+E000007;1539-10-01;přesné;narození;P000054;;PL000003;;Narození Petra Voka v Českém Krumlově;SRC000004;B
+E000008;1539-10-15;přesné;úmrtí;P000043;;;;Úmrtí Jošta III. z Rožmberka;SRC000002;C
+E000009;1569-06-27;přesné;koupě panství;P000054;;PL000005;EST000005;Petr Vok koupil Bechyni od Švamberků;SRC000006;C
+E000010;1578;pouze rok;sňatek;P000051;P000057;;;Sňatek Viléma s Annou Marií Bádenskou;SRC000002;C
+E000011;1580;pouze rok;sňatek;P000054;P000059;;;Sňatek Petra Voka s Kateřinou z Ludanic;SRC000004;C
+E000012;1583;pouze rok;úmrtí;P000057;;;;Úmrtí Anny Marie Bádenské;SRC000002;C
+E000013;1587;pouze rok;sňatek;P000051;P000058;;;Sňatek Viléma s Polyxenou z Pernštejna;SRC000002;C
+E000014;1591;pouze rok;úmrtí;P000053;;;;Úmrtí Evy z Rožmberka;SRC000002;C
+E000015;1592-08-31;přesné;úmrtí;P000051;;;;Úmrtí Viléma z Rožmberka;SRC000001;B
+E000016;1592-08-31;přesné;nástupnictví;P000054;P000051;;EST000004;Petr Vok se po smrti Viléma stal vladařem domu rožmberského;SRC000004;B
+E000017;1597;pouze rok;postoupení majetku;P000054;;PL000001;EST000001;Petr Vok postoupil hrad Rožmberk Janu Zrinskému ze Serynu;SRC000005;B
+E000018;1598;pouze rok;postoupení majetku;P000054;;PL000001;EST000001;Dokončení postoupení hradu Rožmberk Janu Zrinskému ze Serynu;SRC000005;B
+E000019;1601-06-22;přesné;úmrtí;P000059;P000054;;;Úmrtí Kateřiny z Ludanic;SRC000004;C
+E000020;1609;pouze rok;politická událost;P000054;;;;Petr Vok patřil k předním představitelům stavovské opozice;SRC000004;C
+E000021;1611;pouze rok;finanční / vojenská událost;P000054;;;;Petr Vok obětoval rožmberský poklad na vyplacení pasovského vojska;SRC000007;C
+E000022;1611-11-06;přesné;úmrtí;P000054;;PL000004;;Úmrtí Petra Voka v Třeboni;SRC000004;B
+E000023;1611-11-06;přesné;vymření rodu po meči;P000054;;;;Smrtí Petra Voka vymřel rod Rožmberků po meči;SRC000004;B
+E000024;1611;pouze rok;pohřeb;P000054;;PL000002;EST000002;Petr Vok byl uložen do rožmberské hrobky ve Vyšším Brodě;SRC000007;C
