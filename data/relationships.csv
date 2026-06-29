@@ -69,3 +69,18 @@ REL000067;marriage;P000049;P000057;1546;přibližné;Vilém z Rožmberka × Kate
 REL000068;marriage;P000049;P000058;1561;přibližné;Vilém z Rožmberka × Žofie Braniborská z Hohenzollernu;SRC000002;C
 REL000069;marriage;P000049;P000059;1578;přibližné;Vilém z Rožmberka × Anna Marie Bádenská;SRC000002;C
 REL000070;marriage;P000049;P000060;1587;přibližné;Vilém z Rožmberka × Polyxena z Pernštejna;SRC000002;C
+REL000071;parent-child;P000002;P000063;;neznámé;Jindřich I. → Johanka z Rožmberka;SRC000002;C
+REL000072;parent-child;P000002;P000064;;neznámé;Jindřich I. → Markéta z Rožmberka;SRC000002;C
+REL000073;parent-child;P000002;P000065;;neznámé;Jindřich I. → Anežka z Rožmberka;SRC000002;C
+REL000074;parent-child;P000002;P000066;;neznámé;Jindřich I. → neznámá dcera provdaná z Kravař;SRC000002;D
+REL000075;parent-child;P000003;P000067;;neznámé;Petr I. → Jan I. z Rožmberka;SRC000002;C
+REL000076;parent-child;P000003;P000068;;neznámé;Petr I. → Kateřina z Rožmberka;SRC000002;C
+REL000077;parent-child;P000003;P000069;;neznámé;Petr I. → Anna z Rožmberka;SRC000002;C
+REL000078;parent-child;P000003;P000070;;neznámé;Petr I. → Mecela z Rožmberka;SRC000002;C
+REL000079;parent-child;P000003;P000071;;neznámé;Petr I. → neznámá dcera provdaná z Kunštátu;SRC000002;D
+REL000080;parent-child;P000003;P000072;;neznámé;Petr I. → neznámá dcera provdaná z Potštejna;SRC000002;D
+REL000081;parent-child;P000003;P000073;;neznámé;Petr I. → neznámá dcera provdaná z Kamenice;SRC000002;D
+REL000082;parent-child;P000022;P000074;;neznámé;Jindřich III. → Anna z Rožmberka;SRC000002;C
+REL000083;parent-child;P000022;P000075;;neznámé;Jindřich III. → Anežka z Rožmberka;SRC000002;C
+REL000084;parent-child;P000033;P000079;;neznámé;Vok II. → Sidonie/Zikuna z Rožmberka;SRC000002;C
+REL000085;parent-child;P000033;P000080;;neznámé;Vok II. → Barbora z Rožmberka;SRC000002;C
