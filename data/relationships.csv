@@ -1,86 +1,59 @@
-jirelationship_id;type;person_id_1;person_id_2;date;date_quality;note;source_id;confidence
-REL000001;parent-child;P000001;P000002;;neznámé;Vítek I. → Vítek II. starší z Krumlova;SRC000002;C
-REL000002;parent-child;P000001;P000003;;neznámé;Vítek I. → Vítek III. z Prčice a Plankenberka;SRC000002;C
-REL000003;parent-child;P000003;P000004;;neznámé;Vítek III. → Vok I. z Rožmberka;SRC000002;C
-REL000004;marriage;P000004;P000005;;neznámé;Vok I. z Rožmberka × Hedvika ze Schaunberka;SRC000002;C
-REL000005;parent-child;P000004;P000006;;neznámé;Vok I. → Jindřich I. z Rožmberka;SRC000002;C
-REL000006;marriage;P000006;P000007;;neznámé;Jindřich I. z Rožmberka × Eliška z Dobrušky;SRC000002;C
-REL000007;parent-child;P000006;P000008;;neznámé;Jindřich I. → Petr I. z Rožmberka;SRC000002;C
-REL000008;marriage;P000008;P000009;;neznámé;Petr I. z Rožmberka × Viola Těšínská;SRC000002;C
-REL000009;marriage;P000008;P000010;;neznámé;Petr I. z Rožmberka × Kateřina;SRC000002;C
-REL000010;parent-child;P000008;P000011;;neznámé;Petr I. → Jindřich II. z Rožmberka;SRC000002;C
-REL000011;parent-child;P000008;P000012;;neznámé;Petr I. → Petr II. z Rožmberka;SRC000002;C
-REL000012;parent-child;P000008;P000013;;neznámé;Petr I. → Jošt I. z Rožmberka;SRC000002;C
-REL000013;parent-child;P000008;P000015;;neznámé;Petr I. → Oldřich I. z Rožmberka;SRC000002;C
-REL000014;marriage;P000013;P000014;;neznámé;Jošt I. z Rožmberka × Anežka z Wallsee;SRC000002;C
-REL000015;marriage;P000015;P000016;;neznámé;Oldřich I. z Rožmberka × Alžběta z Vartenberka;SRC000002;C
-REL000016;parent-child;P000015;P000017;;neznámé;Oldřich I. → Jindřich III. z Rožmberka;SRC000002;C
-REL000017;marriage;P000017;P000018;;neznámé;Jindřich III. z Rožmberka × Barbora ze Schaunberka;SRC000002;C
-REL000018;marriage;P000017;P000019;;neznámé;Jindřich III. z Rožmberka × Alžběta z Kravař a z Plumlova;SRC000002;C
-REL000019;parent-child;P000017;P000020;;neznámé;Jindřich III. → Oldřich II. z Rožmberka;SRC000002;C
-REL000020;marriage;P000020;P000021;;neznámé;Oldřich II. z Rožmberka × Kateřina z Vartemberka;SRC000002;C
-REL000021;parent-child;P000020;P000022;;neznámé;Oldřich II. → Jindřich IV. z Rožmberka;SRC000002;C
-REL000022;parent-child;P000020;P000024;;neznámé;Oldřich II. → Jošt II. z Rožmberka;SRC000002;C
-REL000023;parent-child;P000020;P000025;;neznámé;Oldřich II. → Jan II. z Rožmberka;SRC000002;C
-REL000024;parent-child;P000020;P000027;;neznámé;Oldřich II. → Anežka z Rožmberka;SRC000002;C
-REL000025;parent-child;P000020;P000028;;neznámé;Oldřich II. → Perchta z Rožmberka;SRC000002;C
-REL000026;parent-child;P000020;P000029;;neznámé;Oldřich II. → Lidmila z Rožmberka;SRC000002;C
-REL000027;marriage;P000022;P000023;;neznámé;Jindřich IV. z Rožmberka × Anežka ze Schaunberka;SRC000002;C
-REL000028;marriage;P000025;P000026;;neznámé;Jan II. z Rožmberka × Anna Hlohovská;SRC000002;C
-REL000029;parent-child;P000025;P000030;;neznámé;Jan II. → Jindřich V. z Rožmberka;SRC000002;C
-REL000030;parent-child;P000025;P000031;;neznámé;Jan II. → Kateřina z Rožmberka;SRC000002;C
-REL000031;parent-child;P000025;P000032;;neznámé;Jan II. → Vok II. z Rožmberka;SRC000002;C
-REL000032;parent-child;P000025;P000033;;neznámé;Jan II. → Barbora z Rožmberka;SRC000002;C
-REL000033;parent-child;P000025;P000034;;neznámé;Jan II. → Markéta z Rožmberka;SRC000002;C
-REL000034;parent-child;P000025;P000035;;neznámé;Jan II. → Petr IV. z Rožmberka;SRC000002;C
-REL000035;parent-child;P000025;P000036;;neznámé;Jan II. → Hedvika z Rožmberka;SRC000002;C
-REL000036;parent-child;P000025;P000037;;neznámé;Jan II. → Eliška z Rožmberka;SRC000002;C
-REL000037;parent-child;P000025;P000038;;neznámé;Jan II. → Johanka z Rožmberka;SRC000002;C
-REL000038;parent-child;P000025;P000039;;neznámé;Jan II. → Oldřich III. z Rožmberka;SRC000002;C
-REL000039;marriage;P000035;P000040;;neznámé;Petr IV. z Rožmberka × Alžběta z Kravař;SRC000002;C
-REL000040;marriage;P000032;P000041;;neznámé;Vok II. z Rožmberka × Markéta z Gutnštejna;SRC000002;C
-REL000041;parent-child;P000032;P000042;;neznámé;Vok II. → Jan III. z Rožmberka;SRC000002;C
-REL000042;parent-child;P000032;P000043;;neznámé;Vok II. → Jindřich VI. z Rožmberka;SRC000002;C
-REL000043;parent-child;P000032;P000044;;neznámé;Vok II. → Jošt III. z Rožmberka;SRC000002;C
-REL000044;parent-child;P000032;P000045;;neznámé;Vok II. → Petr V. z Rožmberka;SRC000002;C
-REL000045;parent-child;P000032;P000046;;neznámé;Vok II. → Jindřich VII. z Rožmberka;SRC000002;C
-REL000046;marriage;P000044;P000047;;neznámé;Jošt III. z Rožmberka × Anna z Rogendorfu;SRC000002;C
-REL000047;parent-child;P000044;P000048;;neznámé;Jošt III. → Anna z Rožmberka;SRC000002;C
-REL000048;parent-child;P000044;P000049;;neznámé;Jošt III. → Ferdinand Vok z Rožmberka;SRC000002;C
-REL000049;parent-child;P000044;P000050;;neznámé;Jošt III. → Alžběta/Eliška z Rožmberka;SRC000002;C
-REL000050;parent-child;P000044;P000051;;neznámé;Jošt III. → Oldřich IV. z Rožmberka;SRC000002;C
-REL000051;parent-child;P000044;P000052;;neznámé;Jošt III. → Vilém z Rožmberka;SRC000002;C
-REL000052;parent-child;P000044;P000053;;neznámé;Jošt III. → Bohunka z Rožmberka;SRC000002;C
-REL000053;parent-child;P000044;P000054;;neznámé;Jošt III. → Eva z Rožmberka;SRC000002;C
-REL000054;parent-child;P000044;P000055;;neznámé;Jošt III. → Petr Vok z Rožmberka;SRC000002;C
-REL000055;marriage;P000052;P000056;;neznámé;Vilém z Rožmberka × Kateřina Brunšvická;SRC000002;C
-REL000056;marriage;P000052;P000057;;neznámé;Vilém z Rožmberka × Žofie Braniborská z Hohenzollernu;SRC000002;C
-REL000057;marriage;P000052;P000058;;neznámé;Vilém z Rožmberka × Anna Marie Bádenská;SRC000002;C
-REL000059;marriage;P000050;P000081;1580;pouze rok;Petr Vok z Rožmberka × Kateřina z Ludanic;SRC000004;C
-REL000059;marriage;P000055;P000060;1580;pouze rok;Petr Vok z Rožmberka × Kateřina z Ludanic;SRC000004;C
-REL000060;sibling;P000052;P000055;;neznámé;Vilém z Rožmberka a Petr Vok z Rožmberka byli bratři;SRC000004;C
-REL000061;parent-child;P000045;P000051;;neznámé;Jošt III. → Anna z Rožmberka;SRC000002;C
-REL000062;parent-child;P000045;P000052;;neznámé;Jošt III. → Ferdinand Vok z Rožmberka;SRC000002;C
-REL000063;parent-child;P000045;P000053;;neznámé;Jošt III. → Alžběta (Eliška) z Rožmberka;SRC000002;C
-REL000064;parent-child;P000045;P000054;;neznámé;Jošt III. → Oldřich IV. z Rožmberka;SRC000002;C
-REL000065;parent-child;P000045;P000055;;neznámé;Jošt III. → Bohunka z Rožmberka;SRC000002;C
-REL000066;parent-child;P000045;P000056;;neznámé;Jošt III. → Eva z Rožmberka;SRC000002;C
-REL000067;marriage;P000049;P000057;1546;přibližné;Vilém z Rožmberka × Kateřina Brunšvická;SRC000002;C
-REL000068;marriage;P000049;P000058;1561;přibližné;Vilém z Rožmberka × Žofie Braniborská z Hohenzollernu;SRC000002;C
-REL000069;marriage;P000049;P000059;1578;přibližné;Vilém z Rožmberka × Anna Marie Bádenská;SRC000002;C
-REL000070;marriage;P000049;P000060;1587;přibližné;Vilém z Rožmberka × Polyxena z Pernštejna;SRC000002;C
-REL000071;parent-child;P000002;P000063;;neznámé;Jindřich I. → Johanka z Rožmberka;SRC000002;C
-REL000072;parent-child;P000002;P000064;;neznámé;Jindřich I. → Markéta z Rožmberka;SRC000002;C
-REL000073;parent-child;P000002;P000065;;neznámé;Jindřich I. → Anežka z Rožmberka;SRC000002;C
-REL000074;parent-child;P000002;P000066;;neznámé;Jindřich I. → neznámá dcera provdaná z Kravař;SRC000002;D
-REL000075;parent-child;P000003;P000067;;neznámé;Petr I. → Jan I. z Rožmberka;SRC000002;C
-REL000076;parent-child;P000003;P000068;;neznámé;Petr I. → Kateřina z Rožmberka;SRC000002;C
-REL000077;parent-child;P000003;P000069;;neznámé;Petr I. → Anna z Rožmberka;SRC000002;C
-REL000078;parent-child;P000003;P000070;;neznámé;Petr I. → Mecela z Rožmberka;SRC000002;C
-REL000079;parent-child;P000003;P000071;;neznámé;Petr I. → neznámá dcera provdaná z Kunštátu;SRC000002;D
-REL000080;parent-child;P000003;P000072;;neznámé;Petr I. → neznámá dcera provdaná z Potštejna;SRC000002;D
-REL000081;parent-child;P000003;P000073;;neznámé;Petr I. → neznámá dcera provdaná z Kamenice;SRC000002;D
-REL000082;parent-child;P000022;P000074;;neznámé;Jindřich III. → Anna z Rožmberka;SRC000002;C
-REL000083;parent-child;P000022;P000075;;neznámé;Jindřich III. → Anežka z Rožmberka;SRC000002;C
-REL000084;parent-child;P000033;P000079;;neznámé;Vok II. → Sidonie/Zikuna z Rožmberka;SRC000002;C
-REL000085;parent-child;P000033;P000080;;neznámé;Vok II. → Barbora z Rožmberka;SRC000002;C
+relationship_id;type;person_id_1;person_id_2;date;date_quality;note;source_id;confidence
+REL000001;parent-child;P000001;P000002;;neznámé;Vítek I. → Vítek III.;SRC000002;C
+REL000002;parent-child;P000002;P000003;;neznámé;Vítek III. → Vok I.;SRC000002;C
+REL000003;marriage;P000003;P000004;;neznámé;Vok I. × Hedvika ze Schaunberka;SRC000002;C
+REL000004;parent-child;P000003;P000005;;neznámé;Vok I. → Jindřich I.;SRC000002;C
+REL000005;marriage;P000005;P000006;;neznámé;Jindřich I. × Eliška z Dobrušky;SRC000002;C
+REL000006;parent-child;P000005;P000007;;neznámé;Jindřich I. → Petr I.;SRC000002;C
+REL000007;marriage;P000007;P000008;;neznámé;Petr I. × Viola Těšínská;SRC000002;C
+REL000008;marriage;P000007;P000009;;neznámé;Petr I. × Kateřina;SRC000002;C
+REL000009;parent-child;P000007;P000010;;neznámé;Petr I. → Jindřich II.;SRC000002;C
+REL000010;parent-child;P000007;P000011;;neznámé;Petr I. → Petr II.;SRC000002;C
+REL000011;parent-child;P000007;P000012;;neznámé;Petr I. → Jošt I.;SRC000002;C
+REL000012;parent-child;P000007;P000014;;neznámé;Petr I. → Oldřich I.;SRC000002;C
+REL000013;marriage;P000012;P000013;;neznámé;Jošt I. × Anežka z Wallsee;SRC000002;C
+REL000014;marriage;P000014;P000015;;neznámé;Oldřich I. × Alžběta z Vartenberka;SRC000002;C
+REL000015;parent-child;P000014;P000016;;neznámé;Oldřich I. → Jindřich III.;SRC000002;C
+REL000016;marriage;P000016;P000017;;neznámé;Jindřich III. × Barbora ze Schaunberka;SRC000002;C
+REL000017;marriage;P000016;P000018;;neznámé;Jindřich III. × Alžběta z Kravař a z Plumlova;SRC000002;C
+REL000018;parent-child;P000016;P000019;;neznámé;Jindřich III. → Oldřich II.;SRC000002;C
+REL000019;marriage;P000019;P000020;;neznámé;Oldřich II. × Kateřina z Vartemberka;SRC000002;C
+REL000020;parent-child;P000019;P000021;;neznámé;Oldřich II. → Jindřich IV.;SRC000002;C
+REL000021;parent-child;P000019;P000023;;neznámé;Oldřich II. → Jošt II.;SRC000002;C
+REL000022;parent-child;P000019;P000024;;neznámé;Oldřich II. → Jan II.;SRC000002;C
+REL000023;parent-child;P000019;P000026;;neznámé;Oldřich II. → Anežka;SRC000002;C
+REL000024;parent-child;P000019;P000027;;neznámé;Oldřich II. → Perchta;SRC000002;C
+REL000025;parent-child;P000019;P000028;;neznámé;Oldřich II. → Lidmila;SRC000002;C
+REL000026;marriage;P000021;P000022;;neznámé;Jindřich IV. × Anežka ze Schaunberka;SRC000002;C
+REL000027;marriage;P000024;P000025;;neznámé;Jan II. × Anna Hlohovská;SRC000002;C
+REL000028;parent-child;P000024;P000029;;neznámé;Jan II. → Jindřich V.;SRC000002;C
+REL000029;parent-child;P000024;P000030;;neznámé;Jan II. → Kateřina;SRC000002;C
+REL000030;parent-child;P000024;P000031;;neznámé;Jan II. → Vok II.;SRC000002;C
+REL000031;parent-child;P000024;P000032;;neznámé;Jan II. → Barbora;SRC000002;C
+REL000032;parent-child;P000024;P000033;;neznámé;Jan II. → Markéta;SRC000002;C
+REL000033;parent-child;P000024;P000034;;neznámé;Jan II. → Petr IV.;SRC000002;C
+REL000034;parent-child;P000024;P000035;;neznámé;Jan II. → Hedvika;SRC000002;C
+REL000035;parent-child;P000024;P000036;;neznámé;Jan II. → Eliška;SRC000002;C
+REL000036;parent-child;P000024;P000037;;neznámé;Jan II. → Johanka;SRC000002;C
+REL000037;parent-child;P000024;P000038;;neznámé;Jan II. → Oldřich III.;SRC000002;C
+REL000038;marriage;P000034;P000039;;neznámé;Petr IV. × Alžběta z Kravař;SRC000002;C
+REL000039;marriage;P000031;P000040;;neznámé;Vok II. × Markéta z Gutnštejna;SRC000002;C
+REL000040;parent-child;P000031;P000041;;neznámé;Vok II. → Jan III.;SRC000002;C
+REL000041;parent-child;P000031;P000042;;neznámé;Vok II. → Jindřich VI.;SRC000002;C
+REL000042;parent-child;P000031;P000043;;neznámé;Vok II. → Jošt III.;SRC000002;C
+REL000043;parent-child;P000031;P000044;;neznámé;Vok II. → Petr V.;SRC000002;C
+REL000044;parent-child;P000031;P000045;;neznámé;Vok II. → Jindřich VII.;SRC000002;C
+REL000045;marriage;P000043;P000046;;neznámé;Jošt III. × Anna z Rogendorfu;SRC000002;C
+REL000046;parent-child;P000043;P000047;;neznámé;Jošt III. → Anna;SRC000002;C
+REL000047;parent-child;P000043;P000048;;neznámé;Jošt III. → Ferdinand Vok;SRC000002;C
+REL000048;parent-child;P000043;P000049;;neznámé;Jošt III. → Alžběta/Eliška;SRC000002;C
+REL000049;parent-child;P000043;P000050;;neznámé;Jošt III. → Oldřich IV.;SRC000002;C
+REL000050;parent-child;P000043;P000051;;neznámé;Jošt III. → Vilém;SRC000002;C
+REL000051;parent-child;P000043;P000052;;neznámé;Jošt III. → Bohunka;SRC000002;C
+REL000052;parent-child;P000043;P000053;;neznámé;Jošt III. → Eva;SRC000002;C
+REL000053;parent-child;P000043;P000054;;neznámé;Jošt III. → Petr Vok;SRC000002;C
+REL000054;marriage;P000051;P000055;;neznámé;Vilém × Kateřina Brunšvická;SRC000002;C
+REL000055;marriage;P000051;P000056;;neznámé;Vilém × Žofie Braniborská;SRC000002;C
+REL000056;marriage;P000051;P000057;1578;pouze rok;Vilém × Anna Marie Bádenská;SRC000002;C
+REL000057;marriage;P000051;P000058;1587;pouze rok;Vilém × Polyxena z Pernštejna;SRC000002;C
+REL000058;marriage;P000054;P000059;1580;pouze rok;Petr Vok × Kateřina z Ludanic;SRC000004;C
