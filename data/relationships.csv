@@ -1,0 +1,11 @@
+relationship_id;type;person_id_1;person_id_2;date;date_quality;note;source_id;confidence
+REL000001;parent-child;P000001;P000002;;neznámé;Vítek I. → Vítek III.;SRC000002;C
+REL000002;parent-child;P000002;P000003;;neznámé;Vítek III. → Vok I.;SRC000002;C
+REL000003;marriage;P000003;P000004;;neznámé;Vok I. a Hedvika ze Schaunberka;SRC000002;C
+REL000004;parent-child;P000003;P000005;;neznámé;Vok I. → Jindřich I.;SRC000002;C
+REL000005;parent-child;P000005;P000006;;neznámé;Jindřich I. → Petr I.;SRC000002;C
+REL000006;marriage;P000008;P000009;;neznámé;Jošt III. a Anna z Rogendorfu;SRC000002;C
+REL000007;parent-child;P000008;P000010;;neznámé;Jošt III. → Vilém;SRC000002;C
+REL000008;parent-child;P000008;P000011;;neznámé;Jošt III. → Petr Vok;SRC000002;C
+REL000009;sibling;P000010;P000011;;neznámé;Vilém a Petr Vok byli bratři;SRC000004;C
+REL000010;marriage;P000011;P000012;1580;pouze rok;Petr Vok a Kateřina z Ludanic;SRC000004;C
