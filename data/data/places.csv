@@ -1,4 +1,4 @@
-place_id;name;type;country;modern_region;note;source_id;confidence
+.place_id;name;type;country;modern_region;note;source_id;confidence
 PL000001;Rožmberk nad Vltavou;město / hrad;Česko;Jihočeský kraj;rodové sídlo Rožmberků;SRC000005;B
 PL000002;Vyšší Brod;klášter / město;Česko;Jihočeský kraj;klášter spojený s rožmberskou fundací a pohřebištěm;SRC000003;B
 PL000003;Český Krumlov;město / hrad;Česko;Jihočeský kraj;hlavní rožmberské sídlo po roce 1302;SRC000003;B
