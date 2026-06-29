@@ -23,3 +23,9 @@ E000021;1611;pouze rok;finanční / vojenská událost;P000054;;;;Petr Vok obět
 E000022;1611-11-06;přesné;úmrtí;P000054;;PL000004;;Úmrtí Petra Voka v Třeboni;SRC000004;B
 E000023;1611-11-06;přesné;vymření rodu po meči;P000054;;;;Smrtí Petra Voka vymřel rod Rožmberků po meči;SRC000004;B
 E000024;1611;pouze rok;pohřeb;P000054;;PL000002;EST000002;Petr Vok byl uložen do rožmberské hrobky ve Vyšším Brodě;SRC000007;C
+E000025;1587;pouze rok;sňatek;P000051;P000058;;;Poslední sňatek Viléma z Rožmberka s Polyxenou z Pernštejna;SRC000008;B
+E000026;1592-08-31;přesné;převod vlády;P000054;P000051;;EST000004;Po smrti Viléma přešla vláda nad rožmberským dominiem na Petra Voka;SRC000008;B
+E000027;1592;pouze rok;bezdětné manželství;P000051;;;;Vilém z Rožmberka nezanechal potomka ze žádného ze čtyř manželství;SRC000008;B
+E000028;1592;pouze rok;pohřeb;P000051;;PL000003;;Vilémovy ostatky byly uloženy v českokrumlovském kostele sv. Víta;SRC000008;B
+E000029;1611;pouze rok;vpád pasovských;P000054;;PL000003;;Pasovská vojska dobyla Český Krumlov a zpustošila okolí;SRC000010;B
+E000030;1611;pouze rok;vyplacení vojska;P000054;;;;Petr Vok byl nucen vyplatit pasovská vojska;SRC000010;B
