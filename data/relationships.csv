@@ -1,4 +1,4 @@
-relationship_id;type;person_id_1;person_id_2;date;date_quality;note;source_id;confidence
+jirelationship_id;type;person_id_1;person_id_2;date;date_quality;note;source_id;confidence
 REL000001;parent-child;P000001;P000002;;neznámé;Vítek I. → Vítek II. starší z Krumlova;SRC000002;C
 REL000002;parent-child;P000001;P000003;;neznámé;Vítek I. → Vítek III. z Prčice a Plankenberka;SRC000002;C
 REL000003;parent-child;P000003;P000004;;neznámé;Vítek III. → Vok I. z Rožmberka;SRC000002;C
@@ -56,7 +56,7 @@ REL000054;parent-child;P000044;P000055;;neznámé;Jošt III. → Petr Vok z Rož
 REL000055;marriage;P000052;P000056;;neznámé;Vilém z Rožmberka × Kateřina Brunšvická;SRC000002;C
 REL000056;marriage;P000052;P000057;;neznámé;Vilém z Rožmberka × Žofie Braniborská z Hohenzollernu;SRC000002;C
 REL000057;marriage;P000052;P000058;;neznámé;Vilém z Rožmberka × Anna Marie Bádenská;SRC000002;C
-REL000058;marriage;P000052;P000059;;neznámé;Vilém z Rožmberka × Polyxena z Pernštejna;SRC000002;C
+REL000059;marriage;P000050;P000081;1580;pouze rok;Petr Vok z Rožmberka × Kateřina z Ludanic;SRC000004;C
 REL000059;marriage;P000055;P000060;1580;pouze rok;Petr Vok z Rožmberka × Kateřina z Ludanic;SRC000004;C
 REL000060;sibling;P000052;P000055;;neznámé;Vilém z Rožmberka a Petr Vok z Rožmberka byli bratři;SRC000004;C
 REL000061;parent-child;P000045;P000051;;neznámé;Jošt III. → Anna z Rožmberka;SRC000002;C
