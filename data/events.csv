@@ -8,12 +8,12 @@ E000006;1522;pouze rok;požár;;;;EST000001;Vyhořela část poddanského města
 E000007;1535-03-10;přesné;narození;P000049;;;;Narození Viléma z Rožmberka;SRC000009;B
 E000008;1539-10-01;přesné;narození;P000050;;PL000003;;Narození Petra Voka z Rožmberka v Českém Krumlově;SRC000010;B
 E000009;1539-10-15;přesné;úmrtí;P000045;;;;Úmrtí Jošta III. z Rožmberka krátce po narození Petra Voka;SRC000008;C
-E000010;1569-06-27;přesné;koupě panství;P000050;;PL000005;EST000005;Petr Vok koupil Bechyni od Švamberků za 23 750 kop grošů českých;SRC000006;C
+E000011;1580;pouze rok;sňatek;P000050;P000081;;;Sňatek Petra Voka z Rožmberka s Kateřinou z Ludanic;SRC000004;C
 E000011;1580;pouze rok;sňatek;P000050;P000060;;;Sňatek Petra Voka z Rožmberka s Kateřinou z Ludanic;SRC000004;C
 E000012;1592-08-31;přesné;úmrtí;P000049;;;;Úmrtí Viléma z Rožmberka;SRC000009;B
 E000013;1592-08-31;přesné;nástupnictví;P000050;P000049;;EST000004;Petr Vok se po smrti Viléma stal posledním rožmberským vladařem;SRC000004;B
 E000014;1597;pouze rok;postoupení majetku;P000050;;;EST000001;Petr Vok postoupil hrad Rožmberk Janu Zrinskému ze Serynu;SRC000005;B
-E000015;1598;pouze rok;postoupení majetku;P000050;;;EST000001;Dokončení období postoupení hradu Rožmberk Janu Zrinskému ze Serynu;SRC000005;B
+E000016;1601-06-22;přesné;úmrtí;P000081;P000050;;;Úmrtí Kateřiny z Ludanic, manželky Petra Voka;SRC000004;C
 E000016;1601-06-22;přesné;úmrtí;P000060;P000050;;;Úmrtí Kateřiny z Ludanic, manželky Petra Voka;SRC000004;C
 E000017;1609;pouze rok;politická událost;P000050;;;;Petr Vok patřil k předním představitelům stavovské opozice;SRC000004;C
 E000018;1611;pouze rok;finanční / vojenská událost;P000050;;;;Petr Vok obětoval rožmberský stříbrný poklad na vyplacení pasovského vojska;SRC000007;C
