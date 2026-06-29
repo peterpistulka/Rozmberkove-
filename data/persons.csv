@@ -1,81 +1,61 @@
 person_id;name;sex;birth_date;birth_quality;birth_place;death_date;death_quality;death_place;house;father_id;mother_id;historical_status;review_status;notes;source_id;confidence
-P000001;Vok I. z Rožmberka;M;1218;pouze rok;;1262-06-03;přesné;;Rožmberkové;;;doložená;revidováno;spojen se založením kláštera Vyšší Brod a raným vzestupem rodu;SRC000003;B
-P000002;Jindřich I. z Rožmberka;M;;neznámé;;1310-07-04;přesné;;Rožmberkové;P000001;;doložená;revidováno;převzal Český Krumlov po vymření pánů z Krumlova roku 1302;SRC000003;B
-P000003;Petr I. z Rožmberka;M;asi 1282;přibližné;;1347-10-14;přesné;;Rožmberkové;P000002;;doložená;pracovní;údaj vyžaduje doplnění odbornou literaturou;SRC000002;C
-P000004;Oldřich II. z Rožmberka;M;1403-01-13;přesné;;1462-04-28;přesné;;Rožmberkové;;;doložená;pracovní;významný představitel rodu v husitské době;SRC000002;C
-P000005;Jošt III. z Rožmberka;M;1488-06-30;přesné;Český Krumlov;1539-10-15;přesné;;Rožmberkové;;;doložená;revidováno;otec Viléma a Petra Voka;SRC000008;C
-P000006;Anna z Rogendorfu;F;asi 1500;přibližné;;1562;pouze rok;;Rogendorfové;;;doložená;pracovní;matka Viléma a Petra Voka;SRC000004;C
-P000007;Vilém z Rožmberka;M;1535-03-10;přesné;sporné / ověřit;1592-08-31;přesné;;Rožmberkové;P000005;P000006;doložená;revidováno;místo narození je potřeba ověřit v odborné literatuře;SRC000009;C
-P000008;Petr Vok z Rožmberka;M;1539-10-01;přesné;Český Krumlov;1611-11-06;přesné;Třeboň;Rožmberkové;P000005;P000006;doložená;revidováno;poslední mužský člen rodu;SRC000010;B
-P000009;Kateřina z Ludanic;F;asi 1567;přibližné;;1601-06-22;přesné;;Ludanice;;;doložená;pracovní;manželka Petra Voka;SRC000004;C
-P000010;Vítek I. z Prčice;M;před 1169;přibližné;;1194;pouze rok;;Vítkovci;;;doložená;pracovní;předek vítkovských větví;SRC000002;C
-P000011;Vítek III. z Prčice a Plankenberka;M;;neznámé;;před 1236;přibližné;;Rožmberkové;P000010;;doložená;pracovní;zakladatel rožmberské větve;SRC000002;C
-P000012;Hedvika ze Schaunberka;F;;neznámé;;;;neznámé;Schaunbergové;;;doložená;pracovní;manželka Voka I.;SRC000002;C
-P000013;Eliška z Dobrušky;F;;neznámé;;;;neznámé;neznámé;;;doložená;pracovní;manželka Jindřicha I.;SRC000002;C
-P000014;Viola Těšínská;F;;neznámé;;1317;pouze rok;;Piastovci;;;doložená;pracovní;první manželka Petra I.;SRC000002;C
-P000015;Kateřina;F;;neznámé;;;;neznámé;neznámé;;;doložená;pracovní;druhá manželka Petra I.;SRC000002;C
-P000016;Jindřich II. z Rožmberka;M;;neznámé;;1346-08-26;přesné;;Rožmberkové;P000003;;doložená;pracovní;syn Petra I.;SRC000002;C
-P000017;Petr II. z Rožmberka;M;1326;pouze rok;;1384-11-16;přesné;;Rožmberkové;P000003;;doložená;pracovní;syn Petra I.;SRC000002;C
-P000018;Jošt I. z Rožmberka;M;;neznámé;;1369-06-24;přesné;;Rožmberkové;P000003;;doložená;pracovní;syn Petra I.;SRC000002;C
-P000019;Anežka z Wallsee;F;;neznámé;;;;neznámé;Wallsee;;;doložená;pracovní;manželka Jošta I.;SRC000002;C
-P000020;Oldřich I. z Rožmberka;M;;neznámé;;1390-03-04;přesné;;Rožmberkové;P000003;;doložená;pracovní;syn Petra I.;SRC000002;C
-P000021;Alžběta z Vartenberka;F;;neznámé;;;;neznámé;Vartenberkové;;;doložená;pracovní;manželka Oldřicha I.;SRC000002;C
-P000022;Jindřich III. z Rožmberka;M;asi 1361;přibližné;;1412-07-28;přesné;;Rožmberkové;P000020;;doložená;pracovní;otec Oldřicha II.;SRC000002;C
-P000023;Barbora ze Schaunberka;F;;neznámé;;;;neznámé;Schaunbergové;;;doložená;pracovní;první manželka Jindřicha III.;SRC000002;C
-P000024;Alžběta z Kravař a z Plumlova;F;;neznámé;;;;neznámé;páni z Kravař;;;doložená;pracovní;druhá manželka Jindřicha III.;SRC000002;C
-P000025;Kateřina z Vartemberka;F;;neznámé;;1436;pouze rok;;Vartenberkové;;;doložená;pracovní;manželka Oldřicha II.;SRC000002;C
-P000026;Jindřich IV. z Rožmberka;M;;neznámé;;1457-01-25;přesné;;Rožmberkové;P000004;P000025;doložená;pracovní;syn Oldřicha II.;SRC000002;C
-P000027;Anežka ze Schaunberka;F;;neznámé;;1461;pouze rok;;Schaunbergové;;;doložená;pracovní;manželka Jindřicha IV.;SRC000002;C
-P000028;Jošt II. z Rožmberka;M;1430;pouze rok;;1467-12-15;přesné;;Rožmberkové;P000004;P000025;doložená;pracovní;syn Oldřicha II.;SRC000002;C
-P000029;Jan II. z Rožmberka;M;;neznámé;;1472-11-08;přesné;;Rožmberkové;P000004;P000025;doložená;pracovní;syn Oldřicha II.;SRC000002;C
-P000030;Anna Hlohovská;F;;neznámé;;1483;pouze rok;;Piastovci;;;doložená;pracovní;manželka Jana II.;SRC000002;C
-P000031;Jindřich V. z Rožmberka;M;1456-06-25;přesné;;1489-05-21;přesné;;Rožmberkové;P000029;P000030;doložená;pracovní;syn Jana II.;SRC000002;C
-P000032;Kateřina z Rožmberka;F;1457;pouze rok;;1521;pouze rok;;Rožmberkové;P000029;P000030;doložená;pracovní;dcera Jana II.;SRC000002;C
-P000033;Vok II. z Rožmberka;M;1459-07-18;přesné;;1505-09-01;přesné;;Rožmberkové;P000029;P000030;doložená;pracovní;syn Jana II.;SRC000002;C
-P000034;Barbora z Rožmberka;F;1460;pouze rok;;;;neznámé;Rožmberkové;P000029;P000030;doložená;pracovní;dcera Jana II.;SRC000002;C
-P000035;Markéta z Rožmberka;F;1460;pouze rok;;;;neznámé;Rožmberkové;P000029;P000030;doložená;pracovní;dcera Jana II.;SRC000002;C
-P000036;Petr IV. z Rožmberka;M;1462-01-17;přesné;;1523-10-09;přesné;;Rožmberkové;P000029;P000030;doložená;pracovní;syn Jana II.;SRC000002;C
-P000037;Hedvika z Rožmberka;F;1464;pouze rok;;1520;pouze rok;;Rožmberkové;P000029;P000030;doložená;pracovní;dcera Jana II.;SRC000002;C
-P000038;Eliška z Rožmberka;F;1466;pouze rok;;;;neznámé;Rožmberkové;P000029;P000030;doložená;pracovní;dcera Jana II.;SRC000002;C
-P000039;Johanka z Rožmberka;F;1467;pouze rok;;1482;pouze rok;;Rožmberkové;P000029;P000030;doložená;pracovní;dcera Jana II.;SRC000002;C
-P000040;Oldřich III. z Rožmberka;M;1471;pouze rok;;1513;pouze rok;;Rožmberkové;P000029;P000030;doložená;pracovní;syn Jana II.;SRC000002;C
-P000041;Alžběta z Kravař;F;;neznámé;;1500;pouze rok;;páni z Kravař;;;doložená;pracovní;manželka Petra IV.;SRC000002;C
-P000042;Markéta z Gutnštejna;F;;neznámé;;před 1528;přibližné;;Gutnštejnové;;;doložená;pracovní;manželka Voka II.;SRC000002;C
-P000043;Jan III. z Rožmberka;M;1484-11-24;přesné;;1532;pouze rok;;Rožmberkové;P000033;P000042;doložená;pracovní;syn Voka II.;SRC000002;C
-P000044;Jindřich VI. z Rožmberka;M;1487-03-14;přesné;;1494-04-16;přesné;;Rožmberkové;P000033;P000042;doložená;pracovní;syn Voka II.;SRC000002;C
-P000045;Jošt III. z Rožmberka;M;1488-06-30;přesné;;1539-10-15;přesné;;Rožmberkové;P000033;P000042;doložená;pracovní;otec Viléma a Petra Voka;SRC000008;B
-P000046;Petr V. z Rožmberka;M;1489-12-17;přesné;;1545-11-06;přesné;;Rožmberkové;P000033;P000042;doložená;pracovní;strýc poslední generace;SRC000002;C
-P000047;Jindřich VII. z Rožmberka;M;1496-01-15;přesné;;1526-08-18;přesné;;Rožmberkové;P000033;P000042;doložená;pracovní;syn Voka II.;SRC000002;C
-P000048;Anna z Rogendorfu;F;1500;pouze rok;;1562;pouze rok;;Rogendorfové;;;doložená;pracovní;manželka Jošta III.;SRC000008;C
-P000049;Vilém z Rožmberka;M;1535-03-10;přesné;;1592-08-31;přesné;;Rožmberkové;P000045;P000048;doložená;revidováno;vladař domu rožmberského;SRC000009;B
-P000050;Petr Vok z Rožmberka;M;1539-10-01;přesné;Český Krumlov;1611-11-06;přesné;Třeboň;Rožmberkové;P000045;P000048;doložená;revidováno;poslední mužský člen rodu;SRC000010;B
-P000051;Anna z Rožmberka;F;1530;pouze rok;;1580;pouze rok;;Rožmberkové;P000045;P000048;doložená;pracovní;sestra Viléma a Petra Voka;SRC000002;C
-P000052;Ferdinand Vok z Rožmberka;M;1531;pouze rok;;1531;pouze rok;;Rožmberkové;P000045;P000048;doložená;pracovní;syn Jošta III. a Anny z Rogendorfu, zemřel v dětství;SRC000002;C
-P000053;Alžběta/Eliška z Rožmberka;F;1532;pouze rok;;1576;pouze rok;;Rožmberkové;P000045;P000048;doložená;pracovní;sestra Viléma a Petra Voka;SRC000002;C
-P000054;Oldřich IV. z Rožmberka;M;1534;pouze rok;;1535;pouze rok;;Rožmberkové;P000045;P000048;doložená;pracovní;syn Jošta III. a Anny z Rogendorfu, zemřel v dětství;SRC000002;C
-P000055;Bohunka z Rožmberka;F;1536;pouze rok;;1557;pouze rok;;Rožmberkové;P000045;P000048;doložená;pracovní;sestra Viléma a Petra Voka;SRC000002;C
-P000056;Eva z Rožmberka;F;1537;pouze rok;;1591;pouze rok;;Rožmberkové;P000045;P000048;doložená;pracovní;sestra Viléma a Petra Voka;SRC000002;C
-P000057;Kateřina Brunšvická;F;1534;pouze rok;;1559;pouze rok;;Brunšvickové;;;doložená;pracovní;první manželka Viléma z Rožmberka;SRC000002;C
-P000058;Žofie Braniborská z Hohenzollernu;F;1541;pouze rok;;1564;pouze rok;;Hohenzollernové;;;doložená;pracovní;druhá manželka Viléma z Rožmberka;SRC000002;C
-P000059;Anna Marie Bádenská;F;1562;pouze rok;;1583;Bádok;;Bád
-P000061;Vítek V. z Příběnic;M;;neznámé;;před 1259;přibližné;;Rožmberkové;;;doložená;pracovní;člen 3. generace rodu, uváděný v generačním přehledu;SRC000002;C
-P000062;Vítek VI. z Rožmberka;M;;neznámé;;1277;pouze rok;;Rožmberkové;;;doložená;pracovní;člen 4. generace rodu;SRC000002;C
-P000063;Johanka z Rožmberka;F;;neznámé;;1317;pouze rok;;Rožmberkové;P000002;;doložená;pracovní;členka 5. generace rodu;SRC000002;C
-P000064;Markéta z Rožmberka;F;;neznámé;;1357;pouze rok;;Rožmberkové;P000002;;doložená;pracovní;členka 5. generace rodu;SRC000002;C
-P000065;Anežka z Rožmberka;F;;neznámé;;;;neznámé;Rožmberkové;P000002;;doložená;pracovní;členka 5. generace rodu, datum úmrtí zatím nedoplněno;SRC000002;C
-P000066;neznámá z Rožmberka, provdaná z Kravař;F;;neznámé;;;;neznámé;Rožmberkové;P000002;;pravděpodobná;pracovní;v generačním přehledu uvedena jako neznámá provdaná z Kravař;SRC000002;D
-P000067;Jan I. z Rožmberka;M;;neznámé;;1389;pouze rok;;Rožmberkové;P000003;;doložená;pracovní;člen 6. generace rodu;SRC000002;C
-P000068;Kateřina z Rožmberka;F;;neznámé;;;;neznámé;Rožmberkové;P000003;;doložená;pracovní;členka 6. generace rodu;SRC000002;C
-P000069;Anna z Rožmberka;F;;neznámé;;1388;pouze rok;;Rožmberkové;P000003;;doložená;pracovní;členka 6. generace rodu;SRC000002;C
-P000070;Mecela z Rožmberka;F;;neznámé;;1380;pouze rok;;Rožmberkové;P000003;;doložená;pracovní;členka 6generace rodu;SRC000002;C
-P000071;neznámá z Rožmberka, provdaná z Kunštátu;F;;neznámé;;;;neznámé;Rožmberkové;P000003;;pravděpodobná;pracovní;v generačním přehledu uvedena jako neznámá provdaná z Kunštátu;SRC000002;D
-P000072;neznámá z Rožmberka, provdaná z Potštejna;F;;neznámé;;;;neznámé;Rožmberkové;P000003;;pravděpodobná;pracovní;v generačním přehledu uvedena jako neznámá provdaná z Potštejna;SRC000002;D
-P000073;neznámá z Rožmberka, provdaná z Kamenice;F;;neznámé;;;;neznámé;Rožmberkové;P000003;;sporná;pracovní;v generačním přehledu uvedena s otazníkem jako provdaná z Kamenice;SRC000002;D
-P000074;Anna z Rožmberka;F;;neznámé;;;;neznámé;Rožmberkové;P000022;;doložená;pracovní;členka 7. generace rodu;SRC000002;C
-P000075;Anežka z Rožmberka;F;;neznámé;;;;neznámé;Rožmberkové;P000022;;doložená;pracovní;členka 7. generace rodu;SRC000002;C
-P000076;Petr III. z Rožmberka;M;;neznámé;;1406;pouze rok;;Rožmberkové;;;doložená;pracovní;člen 8. generace rodu;SRC000002;C
-P000077;Lidmila z Rožmberka;F;;neznámé;;;;neznámé;Rožmberkové;;;doložená;pracovní;členka 8. generace rodu;SRC000002;C
-P000078;Kateřina z Rožmberka;F;1405;pouze rok;;po 1454;přibližné;;Rožmberkové;;;doložená;pracovní;členka 8. generace rodu;SRC000002;C
-P000079;Sidonie / Zikuna z Rožmberka;F;;neznámé;;;;neznámé;Rožmberkové;P000033;P000042;doložená;pracovní;členka 11. generace rodu, uváděná jako Sidonie/Zikuna;SRC000002;C
-P000080;Barbora z Rožmberka;F;;neznámé;;v mládí;přibližné;;Rožmberkové;P000033;P000042;doložená;pracovní;členka 11. generace rodu, zemřela v mládí;SRC000002;C
-P000081;Kateřina z Ludanic;F;asi 1567;přibližné;;1601-06-22;přesné;;Ludanice;;;doložená;pracovní;manželka Petra Voka z Rožmberka;SRC000004;C
+P000001;Vítek I. z Prčice;M;před 1169;přibližné;;1194;pouze rok;;Vítkovci;;;doložená;pracovní;předek vítkovských větví;SRC000002;C
+P000002;Vítek III. z Prčice a Plankenberka;M;;neznámé;;před 1236;přibližné;;Rožmberkové;P000001;;doložená;pracovní;zakladatel rožmberské větve;SRC000002;C
+P000003;Vok I. z Rožmberka;M;1218;pouze rok;;1262-06-03;přesné;;Rožmberkové;P000002;;doložená;revidováno;spojen s počátky hradu Rožmberk a klášterem Vyšší Brod;SRC000003;B
+P000004;Hedvika ze Schaunberka;F;;neznámé;;;;neznámé;Schaunbergové;;;doložená;pracovní;manželka Voka I.;SRC000002;C
+P000005;Jindřich I. z Rožmberka;M;;neznámé;;1310-07-04;přesné;;Rožmberkové;P000003;P000004;doložená;revidováno;převzal Český Krumlov roku 1302;SRC000003;B
+P000006;Eliška z Dobrušky;F;;neznámé;;;;neznámé;neznámé;;;doložená;pracovní;manželka Jindřicha I.;SRC000002;C
+P000007;Petr I. z Rožmberka;M;asi 1282;přibližné;;1347-10-14;přesné;;Rožmberkové;P000005;P000006;doložená;pracovní;významný člen rodu ve 14. století;SRC000002;C
+P000008;Viola Těšínská;F;;neznámé;;1317;pouze rok;;Piastovci;;;doložená;pracovní;první manželka Petra I.;SRC000002;C
+P000009;Kateřina;F;;neznámé;;;;neznámé;neznámé;;;doložená;pracovní;druhá manželka Petra I.;SRC000002;C
+P000010;Jindřich II. z Rožmberka;M;;neznámé;;1346-08-26;přesné;;Rožmberkové;P000007;P000009;doložená;pracovní;syn Petra I.;SRC000002;C
+P000011;Petr II. z Rožmberka;M;1326;pouze rok;;1384-11-16;přesné;;Rožmberkové;P000007;P000009;doložená;pracovní;syn Petra I.;SRC000002;C
+P000012;Jošt I. z Rožmberka;M;;neznámé;;1369-06-24;přesné;;Rožmberkové;P000007;P000009;doložená;pracovní;syn Petra I.;SRC000002;C
+P000013;Anežka z Wallsee;F;;neznámé;;;;neznámé;Wallsee;;;doložená;pracovní;manželka Jošta I.;SRC000002;C
+P000014;Oldřich I. z Rožmberka;M;;neznámé;;1390-03-04;přesné;;Rožmberkové;P000007;P000009;doložená;pracovní;syn Petra I.;SRC000002;C
+P000015;Alžběta z Vartenberka;F;;neznámé;;;;neznámé;Vartenberkové;;;doložená;pracovní;manželka Oldřicha I.;SRC000002;C
+P000016;Jindřich III. z Rožmberka;M;asi 1361;přibližné;;1412-07-28;přesné;;Rožmberkové;P000014;P000015;doložená;pracovní;otec Oldřicha II.;SRC000002;C
+P000017;Barbora ze Schaunberka;F;;neznámé;;;;neznámé;Schaunbergové;;;doložená;pracovní;první manželka Jindřicha III.;SRC000002;C
+P000018;Alžběta z Kravař a z Plumlova;F;;neznámé;;;;neznámé;páni z Kravař;;;doložená;pracovní;druhá manželka Jindřicha III.;SRC000002;C
+P000019;Oldřich II. z Rožmberka;M;1403-01-13;přesné;;1462-04-28;přesné;;Rožmberkové;P000016;P000018;doložená;pracovní;významný politik husitské doby;SRC000002;C
+P000020;Kateřina z Vartemberka;F;;neznámé;;1436;pouze rok;;Vartenberkové;;;doložená;pracovní;manželka Oldřicha II.;SRC000002;C
+P000021;Jindřich IV. z Rožmberka;M;;neznámé;;1457-01-25;přesné;;Rožmberkové;P000019;P000020;doložená;pracovní;syn Oldřicha II.;SRC000002;C
+P000022;Anežka ze Schaunberka;F;;neznámé;;1461;pouze rok;;Schaunbergové;;;doložená;pracovní;manželka Jindřicha IV.;SRC000002;C
+P000023;Jošt II. z Rožmberka;M;1430;pouze rok;;1467-12-15;přesné;;Rožmberkové;P000019;P000020;doložená;pracovní;syn Oldřicha II.;SRC000002;C
+P000024;Jan II. z Rožmberka;M;;neznámé;;1472-11-08;přesné;;Rožmberkové;P000019;P000020;doložená;pracovní;syn Oldřicha II.;SRC000002;C
+P000025;Anna Hlohovská;F;;neznámé;;1483;pouze rok;;Piastovci;;;doložená;pracovní;manželka Jana II.;SRC000002;C
+P000026;Anežka z Rožmberka;F;;neznámé;;1488;pouze rok;;Rožmberkové;P000019;P000020;doložená;pracovní;dcera Oldřicha II.;SRC000002;C
+P000027;Perchta z Rožmberka;F;;neznámé;;1476;pouze rok;;Rožmberkové;P000019;P000020;doložená;pracovní;dcera Oldřicha II.;SRC000002;C
+P000028;Lidmila z Rožmberka;F;;neznámé;;;;neznámé;Rožmberkové;P000019;P000020;doložená;pracovní;dcera Oldřicha II.;SRC000002;C
+P000029;Jindřich V. z Rožmberka;M;1456-06-25;přesné;;1489-05-21;přesné;;Rožmberkové;P000024;P000025;doložená;pracovní;syn Jana II.;SRC000002;C
+P000030;Kateřina z Rožmberka;F;1457;pouze rok;;1521;pouze rok;;Rožmberkové;P000024;P000025;doložená;pracovní;dcera Jana II.;SRC000002;C
+P000031;Vok II. z Rožmberka;M;1459-07-18;přesné;;1505-09-01;přesné;;Rožmberkové;P000024;P000025;doložená;pracovní;syn Jana II.;SRC000002;C
+P000032;Barbora z Rožmberka;F;1460;pouze rok;;;;neznámé;Rožmberkové;P000024;P000025;doložená;pracovní;dcera Jana II.;SRC000002;C
+P000033;Markéta z Rožmberka;F;1460;pouze rok;;;;neznámé;Rožmberkové;P000024;P000025;doložená;pracovní;dcera Jana II.;SRC000002;C
+P000034;Petr IV. z Rožmberka;M;1462-01-17;přesné;;1523-10-09;přesné;;Rožmberkové;P000024;P000025;doložená;pracovní;syn Jana II.;SRC000002;C
+P000035;Hedvika z Rožmberka;F;1464;pouze rok;;1520;pouze rok;;Rožmberkové;P000024;P000025;doložená;pracovní;dcera Jana II.;SRC000002;C
+P000036;Eliška z Rožmberka;F;1466;pouze rok;;;;neznámé;Rožmberkové;P000024;P000025;doložená;pracovní;dcera Jana II.;SRC000002;C
+P000037;Johanka z Rožmberka;F;1467;pouze rok;;1482;pouze rok;;Rožmberkové;P000024;P000025;doložená;pracovní;dcera Jana II.;SRC000002;C
+P000038;Oldřich III. z Rožmberka;M;1471;pouze rok;;1513;pouze rok;;Rožmberkové;P000024;P000025;doložená;pracovní;syn Jana II.;SRC000002;C
+P000039;Alžběta z Kravař;F;;neznámé;;1500;pouze rok;;páni z Kravař;;;doložená;pracovní;manželka Petra IV.;SRC000002;C
+P000040;Markéta z Gutnštejna;F;;neznámé;;před 1528;přibližné;;Gutnštejnové;;;doložená;pracovní;manželka Voka II.;SRC000002;C
+P000041;Jan III. z Rožmberka;M;1484-11-24;přesné;;1532;pouze rok;;Rožmberkové;P000031;P000040;doložená;pracovní;syn Voka II.;SRC000002;C
+P000042;Jindřich VI. z Rožmberka;M;1487-03-14;přesné;;1494-04-16;přesné;;Rožmberkové;P000031;P000040;doložená;pracovní;syn Voka II.;SRC000002;C
+P000043;Jošt III. z Rožmberka;M;1488-06-30;přesné;Český Krumlov;1539-10-15;přesné;;Rožmberkové;P000031;P000040;doložená;pracovní;otec Viléma a Petra Voka;SRC000002;C
+P000044;Petr V. z Rožmberka;M;1489-12-17;přesné;;1545-11-06;přesné;;Rožmberkové;P000031;P000040;doložená;pracovní;strýc poslední generace;SRC000002;C
+P000045;Jindřich VII. z Rožmberka;M;1496-01-15;přesné;;1526-08-18;přesné;;Rožmberkové;P000031;P000040;doložená;pracovní;syn Voka II.;SRC000002;C
+P000046;Anna z Rogendorfu;F;asi 1500;přibližné;;1562;pouze rok;;Rogendorfové;;;doložená;pracovní;manželka Jošta III.;SRC000002;C
+P000047;Anna z Rožmberka;F;1530;pouze rok;;1580;pouze rok;;Rožmberkové;P000043;P000046;doložená;pracovní;dcera Jošta III.;SRC000002;C
+P000048;Ferdinand Vok z Rožmberka;M;1531;pouze rok;;1531;pouze rok;;Rožmberkové;P000043;P000046;doložená;pracovní;syn Jošta III., zemřel v dětství;SRC000002;C
+P000049;Alžběta/Eliška z Rožmberka;F;1532;pouze rok;;1576;pouze rok;;Rožmberkové;P000043;P000046;doložená;pracovní;dcera Jošta III.;SRC000002;C
+P000050;Oldřich IV. z Rožmberka;M;1534;pouze rok;;1535;pouze rok;;Rožmberkové;P000043;P000046;doložená;pracovní;syn Jošta III., zemřel v dětství;SRC000002;C
+P000051;Vilém z Rožmberka;M;1535-03-10;přesné;sporné / ověřit;1592-08-31;přesné;;Rožmberkové;P000043;P000046;doložená;revidováno;vladař domu rožmberského;SRC000001;B
+P000052;Bohunka z Rožmberka;F;1536;pouze rok;;1557;pouze rok;;Rožmberkové;P000043;P000046;doložená;pracovní;dcera Jošta III.;SRC000002;C
+P000053;Eva z Rožmberka;F;1537;pouze rok;;1591;pouze rok;;Rožmberkové;P000043;P000046;doložená;pracovní;dcera Jošta III.;SRC000002;C
+P000054;Petr Vok z Rožmberka;M;1539-10-01;přesné;Český Krumlov;1611-11-06;přesné;Třeboň;Rožmberkové;P000043;P000046;doložená;revidováno;poslední mužský člen rodu;SRC000004;B
+P000055;Kateřina Brunšvická;F;1534;pouze rok;;1559;pouze rok;;Brunšvickové;;;doložená;pracovní;první manželka Viléma;SRC000002;C
+P000056;Žofie Braniborská z Hohenzollernu;F;1541;pouze rok;;1564;pouze rok;;Hohenzollernové;;;doložená;pracovní;druhá manželka Viléma;SRC000002;C
+P000057;Anna Marie Bádenská;F;1562;pouze rok;;1583;pouze rok;;Bádensko;;;doložená;pracovní;třetí manželka Viléma;SRC000002;C
+P000058;Polyxena z Pernštejna;F;1566;pouze rok;;1642;pouze rok;;Pernštejnové;;;doložená;pracovní;čtvrtá manželka Viléma;SRC000002;C
+P000059;Kateřina z Ludanic;F;asi 1567;přibližné;;1601-06-22;přesné;;Ludanice;;;doložená;pracovní;manželka Petra Voka;SRC000004;C
+
