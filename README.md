@@ -1,4 +1,4 @@
-# Historia Bohemica – Projekt Rožmberkové
+# Historia Bohemica – Rožmberkové
 
 Cílem projektu je vytvořit otevřenou historickou databázi rodu Rožmberků založenou výhradně na doložených pramenech.
 
