@@ -1,11 +1,8 @@
 source_id;title;type;url;note;confidence
-SRC000001;Rožmberkové;encyklopedický přehled;https://cs.wikipedia.org/wiki/Ro%C5%BEmberkov%C3%A9;základní přehled rodu, kontext Vítkovců a vladařství domu rožmberského;C
-SRC000002;Rodokmen Rožmberků;genealogický přehled;https://cs.wikipedia.org/wiki/Rodokmen_Ro%C5%BEmberk%C5%AF;pracovní zdroj pro základní genealogii, osoby, sňatky a vazby;C
-SRC000003;Rožmberkové – Město Český Krumlov;encyklopedie;https://encyklopedie.ckrumlov.cz/cz/mesto_histor_rozmbe/;Český Krumlov, Rožmberk, Vyšší Brod, rok 1302;B
-SRC000004;Petr Vok z Rožmberka;biografie;https://cs.wikipedia.org/wiki/Petr_Vok_z_Ro%C5%BEmberka;narození, úmrtí, politická role, poslední mužský člen rodu;C
-SRC000005;Hrad Rožmberk – NPÚ / Český Krumlov;historický přehled;https://www.zamek-ceskykrumlov.cz/cs/tipy-na-vylet/10584-z-ceskeho-krumlova-na-hrad-rozmberk;hrad Rožmberk, první zmínka 1250, požár 1522, postoupení 1597–1598;B
-SRC000006;Petr Vok z Rožmberka – Český rozhlas Dvojka;popularizační historický text;https://dvojka.rozhlas.cz/364-schuzka-petr-vok-z-rozmberka-7939489;koupě Bechyně 27. 6. 1569, cena 23 750 kop grošů českých;C
-SRC000007;Petr Vok z Rožmberka – Třeboňsko.cz;regionální historický přehled;https://www.trebonsko.cz/petr-vok-z-rozmberka;Třeboň, úmrtí Petra Voka, pasovští 1611;C
-SRC000008;Jošt III. z Rožmberka;biografický přehled;https://cs.wikipedia.org/wiki/Jo%C5%A1t_III._z_Ro%C5%BEmberka;základní data Jošta III.;C
-SRC000009;Vilém z Rožmberka – Třeboňská nocturna;regionální historický text;https://www.trebonskanocturna.cz/vilem-z-rozmberka/;uvádí narození Viléma ve Schützendorfu a sourozence;C
-SRC000010;Poslední Rožmberk Petr Vok z Rožmberka – Encyklopedie Český Krumlov;encyklopedie;https://encyklopedie.ckrumlov.cz/cz/mesto_histor_porpvr/;narození Petra Voka, rodiče a poručnictví;B
+SRC000001;Rožmberkové;encyklopedický přehled;https://cs.wikipedia.org/wiki/Ro%C5%BEmberkov%C3%A9;základní přehled rodu;C
+SRC000002;Rodokmen Rožmberků;genealogický přehled;https://cs.wikipedia.org/wiki/Rodokmen_Ro%C5%BEmberk%C5%AF;pracovní genealogický základ;C
+SRC000003;Rožmberkové – Encyklopedie Český Krumlov;encyklopedie;https://encyklopedie.ckrumlov.cz/cz/mesto_histor_rozmbe/;Krumlov, Rožmberk, Vyšší Brod;B
+SRC000004;Petr Vok z Rožmberka;biografie;https://cs.wikipedia.org/wiki/Petr_Vok_z_Ro%C5%BEmberka;Petr Vok, poslední Rožmberk;C
+SRC000005;Hrad Rožmberk – NPÚ;historický přehled;https://www.zamek-ceskykrumlov.cz/cs/tipy-na-vylet/10584-z-ceskeho-krumlova-na-hrad-rozmberk;hrad Rožmberk;B
+SRC000006;Petr Vok – Český rozhlas Dvojka;popularizační historický text;https://dvojka.rozhlas.cz/364-schuzka-petr-vok-z-rozmberka-7939489;koupě Bechyně 1569;C
+SRC000007;Petr Vok – Třeboňsko;regionální historický přehled;https://www.trebonsko.cz/petr-vok-z-rozmberka;Třeboň, pohřeb, pasovští;C
