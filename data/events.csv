@@ -32,3 +32,20 @@ E000030;1380;pouze rok;úmrtí;P000070;;;;Úmrtí Mecely z Rožmberka;SRC000002;
 E000031;1406;pouze rok;úmrtí;P000076;;;;Úmrtí Petra III. z Rožmberka;SRC000002;C
 E000032;1405;pouze rok;narození;P000078;;;;Narození Kateřiny z Rožmberka;SRC000002;C
 E000033;po 1454;přibližné;úmrtí;P000078;;;;Úmrtí Kateřiny z Rožmberka po roce 1454;SRC000002;C
+E000034;1430;pouze rok;narození;P000029;;;;Narození Jana II. z Rožmberka;SRC000002;C
+E000035;1454;pouze rok;sňatek;P000029;P000030;;;Sňatek Jana II. z Rožmberka s Annou Hlohovskou;SRC000002;C
+E000036;1456-06-25;přesné;narození;P000031;;;;Narození Jindřicha V. z Rožmberka;SRC000002;C
+E000037;1457;pouze rok;narození;P000032;;;;Narození Kateřiny z Rožmberka;SRC000002;C
+E000038;1459-07-18;přesné;narození;P000033;;;;Narození Voka II. z Rožmberka;SRC000002;C
+E000039;1460;pouze rok;narození;P000034;;;;Narození Barbory z Rožmberka;SRC000002;C
+E000040;1460;pouze rok;narození;P000035;;;;Narození Markéty z Rožmberka;SRC000002;C
+E000041;1462-01-17;přesné;narození;P000036;;;;Narození Petra IV. z Rožmberka;SRC000002;C
+E000042;1464;pouze rok;narození;P000037;;;;Narození Hedviky z Rožmberka;SRC000002;C
+E000043;1466;pouze rok;narození;P000038;;;;Narození Elišky z Rožmberka;SRC000002;C
+E000044;1467;pouze rok;narození;P000039;;;;Narození Johanky z Rožmberka;SRC000002;C
+E000045;1471;pouze rok;narození;P000040;;;;Narození Oldřicha III. z Rožmberka;SRC000002;C
+E000046;1472-11-08;přesné;úmrtí;P000029;;;;Úmrtí Jana II. z Rožmberka;SRC000002;C
+E000047;1483;pouze rok;úmrtí;P000030;;;;Úmrtí Anny Hlohovské;SRC000002;C
+E000048;1489-05-21;přesné;úmrtí;P000031;;;;Úmrtí Jindřicha V. z Rožmberka;SRC000002;C
+E000049;1505-09-01;přesné;úmrtí;P000033;;;;Úmrtí Voka II. z Rožmberka;SRC000002;C
+E000050;1523-10-09;přesné;úmrtí;P000036;;;;Úmrtí Petra IV. z Rožmberka;SRC000002;C
