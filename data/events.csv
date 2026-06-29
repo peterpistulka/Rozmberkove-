@@ -49,3 +49,23 @@ E000047;1483;pouze rok;úmrtí;P000030;;;;Úmrtí Anny Hlohovské;SRC000002;C
 E000048;1489-05-21;přesné;úmrtí;P000031;;;;Úmrtí Jindřicha V. z Rožmberka;SRC000002;C
 E000049;1505-09-01;přesné;úmrtí;P000033;;;;Úmrtí Voka II. z Rožmberka;SRC000002;C
 E000050;1523-10-09;přesné;úmrtí;P000036;;;;Úmrtí Petra IV. z Rožmberka;SRC000002;C
+E000051;1539-10-15;přesné;úmrtí;P000045;;;;Úmrtí Jošta III. z Rožmberka;SRC000008;B
+E000052;1539;pouze rok;poručnictví;P000049;P000050;;;Po smrti Jošta III. přešlo poručnictví nad nezletilými Vilémem a Petrem Vokem na příbuzné a zemské poručníky;SRC000010;B
+E000053;1551;pouze rok;zletilost;P000049;;;;Vilém z Rožmberka převzal správu rožmberského dominia;SRC000004;B
+E000054;1551;pouze rok;zahájení samostatné správy;P000049;;;EST000004;Začátek samostatné vlády Viléma nad rožmberským majetkem;SRC000004;B
+E000055;1557;pouze rok;úmrtí;P000055;;;;Úmrtí Bohunky z Rožmberka;SRC000002;C
+E000056;1562;pouze rok;úmrtí;P000048;;;;Úmrtí Anny z Rogendorfu;SRC000008;C
+E000057;1564;pouze rok;úmrtí;P000058;;;;Úmrtí Žofie Braniborské z Hohenzollernu;SRC000002;C
+E000058;1569-06-27;přesné;koupě panství;P000050;;;EST000005;Zakoupení panství Bechyně Petrem Vokem;SRC000006;B
+E000059;1576;pouze rok;úmrtí;P000053;;;;Úmrtí Alžběty (Elišky) z Rožmberka;SRC000002;C
+E000060;1578;pouze rok;sňatek;P000049;P000059;;;Sňatek Viléma z Rožmberka s Annou Marií Bádenskou;SRC000002;C
+E000061;1580;pouze rok;sňatek;P000050;P000081;;;Sňatek Petra Voka s Kateřinou z Ludanic;SRC000004;B
+E000062;1583;pouze rok;úmrtí;P000059;;;;Úmrtí Anny Marie Bádenské;SRC000002;C
+E000063;1587;pouze rok;sňatek;P000049;P000060;;;Sňatek Viléma z Rožmberka s Polyxenou z Pernštejna;SRC000002;C
+E000064;1591;pouze rok;úmrtí;P000056;;;;Úmrtí Evy z Rožmberka;SRC000002;C
+E000065;1592-08-31;přesné;úmrtí;P000049;;;;Úmrtí Viléma z Rožmberka;SRC000009;B
+E000066;1592-09-01;přibližné;nástupnictví;P000050;P000049;;;Petr Vok převzal správu celého rožmberského dominia;SRC000004;B
+E000067;1601-06-22;přesné;úmrtí;P000081;;;;Úmrtí Kateřiny z Ludanic;SRC000004;B
+E000068;1611-11-06;přesné;úmrtí;P000050;;PL000004;;Smrt Petra Voka v Třeboni;SRC000010;B
+E000069;1611-11-06;přesné;zánik rodu;P000050;;;;Vymření Rožmberků po meči smrtí Petra Voka;SRC000010;B
+E000070;1611;pouze rok;pohřeb;P000050;;PL000002;EST000002;Uložení ostatků Petra Voka do rožmberské hrobky ve Vyšším Brodě;SRC000007;C
