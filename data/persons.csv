@@ -1,0 +1,13 @@
+person_id;name;sex;birth_date;birth_quality;death_date;death_quality;house;father_id;mother_id;notes;source_id;confidence
+P000001;Vítek I. z Prčice;M;před 1169;přibližné;1194;pouze rok;Vítkovci;;;Předek vítkovských větví;SRC000001;C
+P000002;Vítek III. z Prčice a Plankenberka;M;;neznámé;před 1236;přibližné;Rožmberkové;P000001;;Zakladatel rožmberské větve;SRC000002;C
+P000003;Vok I. z Rožmberka;M;1218;pouze rok;1262-06-03;přesné;Rožmberkové;P000002;;Zakladatel významného postavení rodu;SRC000003;B
+P000004;Hedvika ze Schaunberka;F;;neznámé;;neznámé;Schaunbergové;;;Manželka Voka I.;SRC000002;C
+P000005;Jindřich I. z Rožmberka;M;;neznámé;1310-07-04;přesné;Rožmberkové;P000003;P000004;Převzal Český Krumlov po pánech z Krumlova;SRC000003;B
+P000006;Petr I. z Rožmberka;M;asi 1282;přibližné;1347-10-14;přesné;Rožmberkové;P000005;;Významný představitel rodu ve 14. století;SRC000002;C
+P000007;Oldřich II. z Rožmberka;M;1403-01-13;přesné;1462-04-28;přesné;Rožmberkové;;;Nejvýznamnější Rožmberk husitské doby;SRC000002;B
+P000008;Jošt III. z Rožmberka;M;1488-06-30;přesné;1539-10-15;přesné;Rožmberkové;;;Otec Viléma a Petra Voka;SRC000002;C
+P000009;Anna z Rogendorfu;F;1500;pouze rok;1562;pouze rok;Rogendorfové;;;Manželka Jošta III.;SRC000002;C
+P000010;Vilém z Rožmberka;M;1535-03-10;přesné;1592-08-31;přesné;Rožmberkové;P000008;P000009;Nejvyšší purkrabí Českého království a vladař domu rožmberského;SRC000001;B
+P000011;Petr Vok z Rožmberka;M;1539-10-01;přesné;1611-11-06;přesné;Rožmberkové;P000008;P000009;Poslední mužský člen rodu Rožmberků;SRC000004;B
+P000012;Kateřina z Ludanic;F;asi 1567;přibližné;1601-06-22;přesné;Ludanice;;;Manželka Petra Voka;SRC000004;C
