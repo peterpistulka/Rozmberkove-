@@ -1,6 +1,7 @@
+
 estate_id;name;type;place_id;date_first_known;event_type;note;source_id;confidence
-EST000001;Hrad Rožmberk;hrad;PL000001;1250;první písemná zmínka;Rodové sídlo Rožmberků, doložené od poloviny 13. století.;SRC000005;B
-EST000002;Klášter Vyšší Brod;klášter;PL000002;1259;založení;Cisterciácký klášter založený Vokem I. z Rožmberka.;SRC000003;B
-EST000003;Panství Český Krumlov;hrad a panství;PL000003;1302;převzetí dědictvím;Rožmberkové převzali panství po vymření pánů z Krumlova.;SRC000003;B
-EST000004;Vladařství domu rožmberského;instituce;;1418;vznik titulu;Označení nejvyššího představitele rodu Rožmberků.;SRC000001;C
-EST000005;Panství Bechyně;město a panství;PL000005;1569-06-27;koupě;Petr Vok koupil Bechyni od Švamberků za 23 750 kop grošů českých.;SRC000006;C
+EST000001;Hrad Rožmberk;hrad;PL000001;1250;první písemná zmínka;rodové sídlo Rožmberků;SRC000005;B
+EST000002;Klášter Vyšší Brod;klášter;PL000002;1259;založení;cisterciácký klášter spojený s Rožmberky;SRC000003;B
+EST000003;Panství Český Krumlov;hrad a panství;PL000003;1302;převzetí;získáno po vymření pánů z Krumlova;SRC000003;B
+EST000004;Vladařství domu rožmberského;instituce;;1418;vznik titulu;označení nejvyššího představitele rodu;SRC000001;C
+EST000005;Panství Bechyně;město a panství;PL000005;1569-06-27;koupě;koupeno Petrem Vokem od Švamberků;SRC000006;C
