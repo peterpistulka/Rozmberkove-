@@ -1,6 +1,6 @@
 # Historia Bohemica – Rožmberkové
 
-Cílem projektu je vytvořit otevřenou historickou databázi rodu Rožmberků založenou výhradně na doložených pramenech.
+Cílem projektu není vytvořit další rodokmen, ale kritickou databázi všech doložených osob rodu Rožmberků s ověřitelnými vazbami, událostmi a prameny.
 
 ## Verze 0.1
 Obsahuje základní datový model:
