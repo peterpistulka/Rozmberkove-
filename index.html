@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Historia Bohemica – Rožmberkové</title>
+  <style>
+    body {
+      font-family: system-ui, Arial, sans-serif;
+      margin: 0;
+      background: #f5f2ec;
+      color: #241b13;
+    }
+    header {
+      background: #5b1f1f;
+      color: white;
+      padding: 28px 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2rem; }
+    header p { margin: 8px 0 0; opacity: .9; }
+    main { max-width: 1200px; margin: 24px auto; padding: 0 16px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    }
+    .card strong {
+      display: block;
+      font-size: 1.8rem;
+      color: #5b1f1f;
+    }
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 18px 0;
+    }
+    button {
+      border: 0;
+      border-radius: 999px;
+      padding: 10px 16px;
+      background: #ddd2c2;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    button.active {
+      background: #5b1f1f;
+      color: white;
+    }
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 12px;
+      border-radius: 10px;
+      border: 1px solid #c7b9a6;
+      margin: 10px 0 18px;
+      font-size: 1rem;
+    }
+    .table-wrap {
+      overflow-x: auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 900px;
+    }
+    th, td {
+      padding: 9px 10px;
+      border-bottom: 1px solid #eee;
+      text-align: left;
+      vertical-align: top;
+      font-size: .92rem;
+    }
+    th {
+      position: sticky;
+      top: 0;
+      background: #efe6d8;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    tr:hover td { background: #fff8ef; }
+    .muted { color: #6f6255; }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #6f6255;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Historia Bohemica – Rožmberkové</h1>
+  <p>Kritická historická databáze rodu Rožmberků</p>
+</header>
+
+<main>
+  <section class="cards" id="stats"></section>
+
+  <div class="tabs">
+    <button class="active" onclick="showTable('persons')">Osoby</button>
+    <button onclick="showTable('relationships')">Vztahy</button>
+    <button onclick="showTable('events')">Události</button>
+    <button onclick="showTable('places')">Místa</button>
+    <button onclick="showTable('estates')">Majetek</button>
+    <button onclick="showTable('sources')">Zdroje</button>
+  </div>
+
+  <input id="search" placeholder="Hledat v aktuální tabulce..." oninput="renderTable()" />
+
+  <section class="table-wrap">
+    <table id="data-table"></table>
+  </section>
+</main>
+
+<footer>
+  Projekt vzniká jako otevřená databáze rodu Rožmberků.
+</footer>
+
+<script>
+const files = {
+  persons: "data/persons.csv",
+  relationships: "data/relationships.csv",
+  events: "data/events.csv",
+  places: "data/places.csv",
+  estates: "data/estates.csv",
+  sources: "data/sources.csv"
+};
+
+const labels = {
+  persons: "Osoby",
+  relationships: "Vztahy",
+  events: "Události",
+  places: "Místa",
+  estates: "Majetek",
+  sources: "Zdroje"
+};
+
+let data = {};
+let current = "persons";
+let sortColumn = null;
+let sortAsc = true;
+
+function parseCSV(text) {
+  const rows = text.trim().split(/\r?\n/);
+  return rows.map(row => {
+    const result = [];
+    let value = "";
+    let insideQuotes = false;
+
+    for (let i = 0; i < row.length; i++) {
+      const char = row[i];
+      const next = row[i + 1];
+
+      if (char === '"' && insideQuotes && next === '"') {
+        value += '"';
+        i++;
+      } else if (char === '"') {
+        insideQuotes = !insideQuotes;
+      } else if (char === ";" && !insideQuotes) {
+        result.push(value);
+        value = "";
+      } else {
+        value += char;
+      }
+    }
+    result.push(value);
+    return result;
+  });
+}
+
+async function loadData() {
+  for (const [key, path] of Object.entries(files)) {
+    try {
+      const response = await fetch(path);
+      if (!response.ok) throw new Error(path);
+      const text = await response.text();
+      const parsed = parseCSV(text);
+      const headers = parsed[0];
+      const rows = parsed.slice(1).map(row => {
+        const obj = {};
+        headers.forEach((h, i) => obj[h] = row[i] || "");
+        return obj;
+      });
+      data[key] = { headers, rows };
+    } catch (e) {
+      data[key] = { headers: ["chyba"], rows: [{ chyba: "Soubor nebyl načten: " + path }] };
+    }
+  }
+  renderStats();
+  renderTable();
+}
+
+function renderStats() {
+  const stats = document.getElementById("stats");
+  stats.innerHTML = Object.keys(files).map(key => `
+    <div class="card">
+      <strong>${data[key]?.rows?.length || 0}</strong>
+      <span>${labels[key]}</span>
+    </div>
+  `).join("");
+}
+
+function showTable(key) {
+  current = key;
+  sortColumn = null;
+  document.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+  [...document.querySelectorAll("button")].find(b => b.textContent === labels[key]).classList.add("active");
+  document.getElementById("search").value = "";
+  renderTable();
+}
+
+function renderTable() {
+  const table = document.getElementById("data-table");
+  const search = document.getElementById("search").value.toLowerCase();
+  const dataset = data[current];
+  if (!dataset) return;
+
+  let rows = [...dataset.rows];
+
+  if (search) {
+    rows = rows.filter(row =>
+      Object.values(row).some(value => String(value).toLowerCase().includes(search))
+    );
+  }
+
+  if (sortColumn) {
+    rows.sort((a, b) => {
+      const av = a[sortColumn] || "";
+      const bv = b[sortColumn] || "";
+      return sortAsc ? av.localeCompare(bv, "cs") : bv.localeCompare(av, "cs");
+    });
+  }
+
+  table.innerHTML = `
+    <thead>
+      <tr>
+        ${dataset.headers.map(h => `<th onclick="sortBy('${h}')">${h}</th>`).join("")}
+      </tr>
+    </thead>
+    <tbody>
+      ${rows.map(row => `
+        <tr>
+          ${dataset.headers.map(h => `<td>${escapeHtml(row[h] || "")}</td>`).join("")}
+        </tr>
+      `).join("")}
+    </tbody>
+  `;
+}
+
+function sortBy(column) {
+  if (sortColumn === column) {
+    sortAsc = !sortAsc;
+  } else {
+    sortColumn = column;
+    sortAsc = true;
+  }
+  renderTable();
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
+}
+
+loadData();
+</script>
+</body>
+</html>
